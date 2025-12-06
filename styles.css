@@ -32,7 +32,7 @@ a{color:inherit;text-decoration:none}
 .nav__links a{position:relative;padding:6px 0}
 .nav__links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--accent);transition:width .25s}
 .nav__links a:hover::after{width:100%}
-.nav__cta{display:flex;gap:12px;align-items:center}
+.nav__cta{display:none;gap:12px;align-items:center}
 .btn{padding:10px 16px;border-radius:999px;border:1px solid var(--border);background:#fff;transition:all .25s;cursor:pointer}
 .btn--accent{background:var(--accent);color:#fff;border-color:transparent}
 .btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
@@ -98,6 +98,7 @@ a{color:inherit;text-decoration:none}
 .spacer-16{height:16px}
 .spacer-24{height:24px}
 .center{display:grid;place-items:center}
+.text-align-justify{text-align:justify}
 
 /* Accessibility focus */
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
