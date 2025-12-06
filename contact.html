@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact — Your Brand</title>
+  <link rel="stylesheet" href="styles.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+            <div class="brand">
+        <!--div class="brand__logo1" aria-hidden="true"></div-->
+        <a class="brand__name" href="index.html" aria-label="Go to home"><img src="Assets/Images/LCG_Title.png" alt="Loom Craft Gifts logo" width="30%" ></a>
+      </div>
+      <nav class="nav__links"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+      <!--div class="nav__cta"><a class="btn" href="cart.html">Cart</a></div-->
+    </div>
+  </header>
+  
+  <main class="container section">
+    <h1>Get in touch</h1>
+    <p class="muted">Questions, feedback, or bulk orders? We'd love to hear from you.</p>
+    <div class="spacer-16"></div>
+    <form action="#" method="post" style="max-width:640px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+        <input class="input" type="text" placeholder="First name" aria-label="First name"/>
+        <input class="input" type="text" placeholder="Last name" aria-label="Last name"/>
+      </div>
+      <div class="spacer-8"></div>
+      <input class="input" type="email" placeholder="Email" aria-label="Email"/>
+      <div class="spacer-8"></div>
+      <textarea class="input" placeholder="Your message" rows="6" aria-label="Message"></textarea>
+      <div class="spacer-16"></div>
+      <button class="btn btn--accent" type="submit">Send Message</button>
+    </form>
+  </main>
+</body>
+</html>

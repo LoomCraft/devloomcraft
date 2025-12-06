@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="shortcut icon" type="image/x-icon" href="Assets/Images/favicon.ico" />
+  <title>Your Brand — Modern E‑commerce</title>
+  <meta name="description" content="A minimalist e‑commerce template: clean hero, product grid, and elegant typography."/>
+  <link rel="stylesheet" href="styles.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <!--div class="brand__logo1" aria-hidden="true"></div-->
+        <a class="brand__name" href="index.html" aria-label="Go to home"><img src="Assets/Images/LCG_Title.png" alt="Loom Craft Gifts logo" width="30%" ></a>
+      </div>
+      <input type="checkbox" id="menu-toggle" aria-label="Toggle menu"/>
+      <label for="menu-toggle" class="hamburger" aria-hidden="true">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </label>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <!--div class="nav__cta">
+        <a class="btn" href="cart.html" aria-label="Open cart">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M3 3h2l2 12h10l2-8H7"/><circle cx="9" cy="20" r="2"/><circle cx="17" cy="20" r="2"/></svg>
+        </a>
+        <a class="btn btn--accent" href="shop.html">Shop Now</a>
+      </div-->
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__content">
+        <div>
+          <h1>Elevate everyday essentials.</h1>
+          <p>Discover thoughtfully designed products with a focus on quality, comfort, and timeless style.</p>
+          <div class="hero__actions">
+            <a class="btn btn--accent" href="shop.html">Browse Collection</a>
+            <a class="btn" href="#featured">Featured</a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="Assets/Images/LoomCraftGifts_CoPilot.png" alt="Hero showcase of curated products"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="section">
+      <div class="container">
+        <div class="section__header">
+          <div>
+            <h2 class="section__title">Featured picks</h2>
+            <p class="section__desc">Hand-picked favorites from this season</p>
+          </div>
+          <a class="btn" href="shop.html">View All</a>
+        </div>
+        <div class="grid">
+          <!-- Product card -->
+          <article class="card">
+            <a href="product.html" class="card__image" aria-label="View product"><img src="assets/images/placeholder.png" alt="Product image"/></a>
+            <div class="card__body">
+              <div class="card__title">Essential Tee</div>
+              <div class="card__meta"><span>Unisex</span><span class="card__price">₹999</span></div>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--accent" href="product.html">Quick View</a>
+              <a class="btn" href="cart.html">Add to Cart</a>
+            </div>
+          </article>
+          <article class="card">
+            <a href="product.html" class="card__image"><img src="assets/images/placeholder.png" alt="Product image"/></a>
+            <div class="card__body">
+              <div class="card__title">Canvas Tote</div>
+              <div class="card__meta"><span>Natural</span><span class="card__price">₹799</span></div>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--accent" href="product.html">Quick View</a>
+              <a class="btn" href="cart.html">Add to Cart</a>
+            </div>
+          </article>
+          <article class="card">
+            <a href="product.html" class="card__image"><img src="assets/images/placeholder.png" alt="Product image"/></a>
+            <div class="card__body">
+              <div class="card__title">Minimal Cap</div>
+              <div class="card__meta"><span>Black</span><span class="card__price">₹699</span></div>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--accent" href="product.html">Quick View</a>
+              <a class="btn" href="cart.html">Add to Cart</a>
+            </div>
+          </article>
+          <article class="card">
+            <a href="product.html" class="card__image"><img src="assets/images/placeholder.png" alt="Product image"/></a>
+            <div class="card__body">
+              <div class="card__title">Daily Sneakers</div>
+              <div class="card__meta"><span>White</span><span class="card__price">₹2,999</span></div>
+            </div>
+            <div class="card__actions">
+              <a class="btn btn--accent" href="product.html">Quick View</a>
+              <a class="btn" href="cart.html">Add to Cart</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="display: none;">
+      <div class="container center" style="background:#F1F5F9;border:1px solid var(--border);border-radius:16px;padding:24px;">
+        <div>
+          <div class="badge">New arrivals</div>
+          <div class="spacer-8"></div>
+          <h2 class="center" style="margin:0 0 8px">Fresh looks. Same comfort.</h2>
+          <p class="muted center">Sign up to get early access and exclusive offers.</p>
+          <div class="spacer-16"></div>
+          <form class="center" action="#" method="post" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+            <input class="input" style="width:min(360px,80vw)" type="email" placeholder="you@example.com" aria-label="Email"/>
+            <button class="btn btn--accent" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>Your Brand</strong>
+        <div class="spacer-8"></div>
+        <p class="muted">Quality essentials for everyday life. Thoughtfully designed, responsibly made.</p>
+      </div>
+      <div>
+        <strong>Shop</strong>
+        <div class="spacer-8"></div>
+        <a href="shop.html">All products</a><br/>
+        <a href="index.html#featured">Featured</a><br/>
+        <a href="cart.html">Cart</a>
+      </div>
+      <div>
+        <strong>Support</strong>
+        <div class="spacer-8"></div>
+        <a href="contact.html">Contact</a><br/>
+        <a href="#">Shipping & Returns</a><br/>
+        <a href="#">FAQ</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

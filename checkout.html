@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Checkout — Your Brand</title>
+  <link rel="stylesheet" href="styles.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+            <div class="brand">
+        <!--div class="brand__logo1" aria-hidden="true"></div-->
+        <a class="brand__name" href="index.html" aria-label="Go to home"><img src="Assets/Images/LCG_Title.png" alt="Loom Craft Gifts logo" width="30%" ></a>
+      </div>
+      <nav class="nav__links"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+      <!--div class="nav__cta"><a class="btn" href="cart.html">Cart</a></div-->
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Checkout</h1>
+    <p class="muted">Prototype form. Connect to a payment gateway later.</p>
+    <div class="spacer-16"></div>
+    <div style="display:grid;grid-template-columns:2fr 1fr;gap:18px">
+      <form class="card" style="padding:14px">
+        <strong>Contact</strong>
+        <div class="spacer-8"></div>
+        <input class="input" type="email" placeholder="Email"/>
+        <div class="spacer-16"></div>
+        <strong>Shipping address</strong>
+        <div class="spacer-8"></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <input class="input" type="text" placeholder="First name"/>
+          <input class="input" type="text" placeholder="Last name"/>
+        </div>
+        <div class="spacer-8"></div>
+        <input class="input" type="text" placeholder="Address"/>
+        <div class="spacer-8"></div>
+        <div style="display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px">
+          <input class="input" type="text" placeholder="City"/>
+          <input class="input" type="text" placeholder="State"/>
+          <input class="input" type="text" placeholder="PIN"/>
+        </div>
+        <div class="spacer-16"></div>
+        <button class="btn btn--accent" type="submit">Pay now</button>
+      </form>
+      <aside>
+        <div class="card" style="padding:14px">
+          <strong>Order</strong>
+          <div class="spacer-8"></div>
+          <div style="display:grid;grid-template-columns:64px 1fr auto;gap:10px;align-items:center">
+            <img src="assets/images/placeholder.svg" alt="Item" style="border-radius:8px"/>
+            <div class="muted">Essential Tee · M</div>
+            <div><strong>₹999</strong></div>
+          </div>
+          <div class="spacer-8"></div>
+          <div class="muted" style="display:flex;justify-content:space-between"><span>Shipping</span><span>₹80</span></div>
+          <div style="display:flex;justify-content:space-between"><span><strong>Total</strong></span><span><strong>₹1,079</strong></span></div>
+        </div>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>
