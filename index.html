@@ -50,8 +50,28 @@ We craft unique gifts using River Grass, Date Palm, Water Reed Grass, Palm Leaf,
           </div>
         </div>
         <div class="hero__image">
-          <img src="Assets/Images/LoomCraftGifts_CoPilot.png" alt="Hero showcase of curated products"/>
+          <img id="slide" src="Assets/Images/LoomCraftGifts_CoPilot.png" alt="LoomCraftGifts showcase of curated products"/>
         </div>
+        
+<script>
+        // Array of image paths
+        const images = [
+            "Assets/Images/LoomCraftGifts_CoPilot.png",
+            "Assets/Images/LoomCraftGifts_CoPilot_1.png",
+             "Assets/Images/LoomCraftGifts_CoPilot_2.png",
+             "Assets/Images/LoomCraftGifts_CoPilot_3.png"
+        ];
+
+        let index = 0;
+        const slide = document.getElementById("slide");
+
+        // Change image every 3 seconds
+        setInterval(() => {
+            index = (index + 1) % images.length;
+            slide.src = images[index];
+        }, 3000);
+    </script>
+
       </div>
     </section>
 
