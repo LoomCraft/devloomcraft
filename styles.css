@@ -74,7 +74,7 @@ a{color:inherit;text-decoration:none}
 .card__title{font-weight:600}
 .card__meta{display:flex;justify-content:space-between;align-items:center;color:var(--muted);margin-top:6px}
 .card__price{font-weight:700;color:var(--brand)}
-.card__actions{padding:14px;display:flex;gap:10px;border-top:1px solid var(--border)}
+.card__actions{padding:14px;display:none;gap:10px;border-top:1px solid var(--border)}
 
 /* Product page */
 .product{display:grid;grid-template-columns:1fr 1fr;gap:26px}
