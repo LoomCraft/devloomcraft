@@ -7,36 +7,15 @@
   <title>LOOM CRAFT GIFTS</title>
   <meta name="description" content="A minimalist e‑commerce template: clean hero, product grid, and elegant typography."/>
   <link rel="stylesheet" href="styles.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <script src="Assets/scripts/banner.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <div class="container nav">
-      <div class="brand">
-        <!--div class="brand__logo1" aria-hidden="true"></div-->
-        <a class="brand__name" href="index.html" aria-label="Go to home"><img src="Assets/Images/LCG_Title.png" alt="Loom Craft Gifts logo" width="30%" ></a>
-      </div>
-      <input type="checkbox" id="menu-toggle" aria-label="Toggle menu"/>
-      <label for="menu-toggle" class="hamburger" aria-hidden="true">
-        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M3 6h18M3 12h18M3 18h18"/></svg>
-      </label>
-      <nav class="nav__links" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <!--div class="nav__cta">
-        <a class="btn" href="cart.html" aria-label="Open cart">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-width="2" d="M3 3h2l2 12h10l2-8H7"/><circle cx="9" cy="20" r="2"/><circle cx="17" cy="20" r="2"/></svg>
-        </a>
-        <a class="btn btn--accent" href="shop.html">Shop Now</a>
-      </div-->
-    </div>
-  </header>
-
+  <!--Banner-->
+  <div id="banner"></div>
+  <!--Banner-->
   <main>
     <section class="hero">
       <div class="container hero__content">
@@ -75,7 +54,7 @@ We craft unique gifts using River Grass, Date Palm, Water Reed Grass, Palm Leaf,
       </div>
     </section>
 
-    <section id="featured" class="section">
+    <section id="featured" class="sectionHide">
       <div class="container">
         <div class="section__header">
           <div>
@@ -87,7 +66,7 @@ We craft unique gifts using River Grass, Date Palm, Water Reed Grass, Palm Leaf,
         <div class="grid">
           <!-- Product card -->
           <article class="card">
-            <a href="product.html" class="card__image" aria-label="View product"><img  src="Assets\Products\Boxes\Bamboo Boxes Square\1.png" alt="Product image" /></a>
+            <a href="product.html" class="card__image" aria-label="View product"><img  src="Assets\Products\Boxes\Bamboo Boxes Square\1.jpg" alt="Product image" /></a>
             <div class="card__body">
               <div class="card__title">Bamboo Boxes Square</div>
               <div class="card__meta"><span>Gift</span><span class="card__price">₹999</span></div>
@@ -151,28 +130,9 @@ We craft unique gifts using River Grass, Date Palm, Water Reed Grass, Palm Leaf,
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div>
-        <strong>LOOM CRAFT GIFTS</strong>
-        <div class="spacer-8"></div>
-        <p class="muted">"Eco-friendly return gifts that weave nature into every celebration. Crafted with love from River Grass, Date Palm, Water Reed Grass, Palm Leaf, Banana Fiber, Brocade, and Bamboo—because every gift should tell a story of sustainability."</p>
-      </div>
-      <div>
-        <strong>Shop</strong>
-        <div class="spacer-8"></div>
-        <a href="shop.html">All products</a><br/>
-        <a href="index.html#featured">Featured</a><br/>
-        <a href="cart.html">Cart</a>
-      </div>
-      <div>
-        <strong>Support</strong>
-        <div class="spacer-8"></div>
-        <a href="contact.html">Contact</a><br/>
-        <a href="#">Shipping & Returns</a><br/>
-        <a href="#">FAQ</a>
-      </div>
-    </div>
-  </footer>
+  <!--Footer-->
+  <div id="footer"></div>
+  <!--Footer-->
+
 </body>
 </html>
