@@ -37,5 +37,5 @@ header .banner { padding: 20px; max-width: 1024px; margin: 0 auto; }
 main { flex: 1; padding: 20px }
 .container { width: min(900px, 90vw); margin: auto; }
 /* Footer styles */
-footer { display: flex; justify-content: center; align-items: center; align-content: center; gap: 1em; min-height: 100px;  }
+footer { display: flex; justify-content: center; align-items: center; align-content: center; gap: 1em; min-height: 40px;  }
 #Copyright {text-align: center;}
